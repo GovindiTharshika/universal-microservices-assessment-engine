@@ -1,0 +1,13 @@
+{
+  "project_name": "Universal Microservices Auditor",
+  "prometheus_url": "http://localhost:9090",
+  "jaeger_url": "http://localhost:16686",
+  "elasticsearch_url": "http://localhost:9200",
+  "target_namespace": "default",
+  "total_expected_microservices": 11,
+  "weights": {
+    "metric_weight": 0.4,
+    "trace_weight": 0.3,
+    "log_weight": 0.3
+  }
+}
